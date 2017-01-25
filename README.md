@@ -1,13 +1,37 @@
 Author: Kolby Sisk
 
-This project is the optimal way to start a .net core react app. It uses CRA (Create React App) to manage the build configuration.
+vs-react is an example project running react in a .net core solution.
+
+The goal of vs-react is to provide a minimalistic .net core + react framework 
+
+vs-react is built on top of a blank .NET core web application and uses ReactJS.NET for server side features:
+
++ Server side component rendering
++ Cassette asset bundling
++ Azure support
+
+vs-react uses CRA (Create React App) to manage the front-end build configuration which include:
+
++ React, JSX, ES6, and Flow syntax support
++ Language extras beyond ES6 like the object spread operator
++ A dev server that lints for common error
++ Import CSS and image files directly from JavaScript
++ Autoprefixed CSS, so you don’t need -webkit or other prefixes.
++ A build script to bundle JS, CSS, and images for production, with sourcemaps
++ Optional sass/scss support by ejecting
+
 Learn more about CRA:
 
 + https://facebook.github.io/react/blog/2016/07/22/create-apps-with-no-configuration.html
 + https://github.com/facebookincubator/create-react-app
 + https://tylermcginnis.com/create-react-app-and-the-future-of-creating-react-applications/
 
-It's built on top of a blank .NET core web application.
+<br />
+
+TODO:
+
++ set up server side component rendering
++ production build process
 
 <br />
 

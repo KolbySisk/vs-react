@@ -1,0 +1,1 @@
+When you're ready to build production files run `npm run build` from the react folder. It will create a build folder. Copy the contents of that folder, into the wwwroot folder. Your project is not ready to go to a prod server.
